@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "quiver-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js Web Server for Quiver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevennguyen003/quiver-node-server-app.git"
+  },
+  "author": "Steven Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevennguyen003/quiver-node-server-app/issues"
+  },
+  "homepage": "https://github.com/stevennguyen003/quiver-node-server-app#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.3.3"
+  }
+}
